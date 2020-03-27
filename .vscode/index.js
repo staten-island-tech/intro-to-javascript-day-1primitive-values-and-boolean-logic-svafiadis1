@@ -1,4 +1,3 @@
-
 /*let string = "strings";
 let sentence = "Hello" + "Junshen";
 let  sentence2 = " and Ema" ;
@@ -62,11 +61,9 @@ let ron = "Ron";
 console.log(ron !== "Ema");
 */
 
-
 // Homework !
 
-
-//Stoplight 
+//Stoplight
 
 /* let light = "green";
 if (light === "green"){
@@ -93,6 +90,7 @@ if(coffee === 0){
 
 // Challenge
 
+/*
 let thermostat = 78;
 
 if(thermostat < 68){
@@ -104,3 +102,72 @@ if(thermostat < 68){
 } else if(thermostat > 76) {
     console.log("Too Hot");
 }
+*/
+
+//functions
+
+/*
+function test() {
+    console.log("TEST");
+}
+test();
+*/
+
+/* function argument(argument) {
+    console.log(argument);
+}
+argument("argument");
+console.log(add(10,3)); 
+
+const hello = function() {
+    alert("hello");
+};
+const bye = function() {
+    alert("Bye");
+};
+
+const beatles = function(){
+    hello();
+    bye();
+    hello();
+    bye();
+}
+beatles();*/
+
+////scope
+/* 
+function hello() {
+    const name = "Sarah";
+    function displayName(){
+        alert(name)
+    }
+    return displayName();
+}
+hello(); */
+
+/* const name = "Michael y"; //global space
+function makeFunc(){
+  const name = "Sarah";  //function scope
+    function displayName() {
+        console.log(name); //inner function can access outer function
+    }
+    return displayName;
+}
+const myFunc = makeFunc(); //// closure
+myFunc(); */
+
+/////arrays
+/* const names = ["Diego", "Frid", "Christian", "Valerie", "Haoran"];
+//names.push("Caroline");
+//let newNames = names.unshift("Brian");
+names.forEach(name => console.log(name));
+names.filter(//somecode).forEach(el() => console.log(el)) */
+
+
+//spread operator
+const numbers = [1, 2, 3, 4];
+
+const add = function(x, y, z , f) {
+    return x + y + z + f;
+};
+console.log(add(...numbers));
