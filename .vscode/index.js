@@ -163,7 +163,7 @@ myFunc(); */
 names.forEach(name => console.log(name));
 names.filter(//somecode).forEach(el() => console.log(el)) */
 
-
+/*
 //spread operator
 const numbers = [1, 2, 3, 4];
 
@@ -171,3 +171,21 @@ const add = function(x, y, z , f) {
     return x + y + z + f;
 };
 console.log(add(...numbers));
+*/
+
+//Challenge 1
+/*
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+let result = students.filter(student => student.length < 5);
+console.log(result);
+*/
+
+//Challenge 2
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+//let result = students.includes("junshen");
+//console.log(result);
+function filter(){
+    let names = ["Alan", "Savva"];
+}
+console.log(students.some(filter));
